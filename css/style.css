@@ -1,0 +1,22 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+
+/* --- Components design --- */
+
+@import url("components/header.css");
+@import url("components/menu.css");
+@import url("components/footer.css");
+@import url("components/mainpage.css");
+
+/* --- Fonts --- */
+body {
+  	font-family: 'Bubbler One', sans-serif;
+  	/*padding-bottom: 200px;*/
+  	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: auto;
+	color:rgb(90,90,90);
+}
+
+
