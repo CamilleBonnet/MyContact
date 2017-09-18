@@ -1,0 +1,43 @@
+.bouton{
+	font-size:30px;
+	border:1px solid #E6E6E6;
+	text-align: center;
+	width: 250px;
+	margin:auto;
+	border-radius: 5px;
+	padding: 5px;
+	
+}
+
+.btn-descrip{
+	border:1px solid rgb(240, 240, 240);
+	height: 25vh;
+}
+
+/* Goal */
+.descrip1 {
+	background-color: rgba(200,200,200,0.3); 
+}
+
+\/* Devices Compatibility */
+.descrip2 {
+	background-color: rgba(150,150,150,0.3);
+}
+
+/* Security */
+.descrip3 {
+	background-color: rgba(100,100,100,0.3);
+}
+
+#btn-description a{
+	text-decoration: none;
+	color:rgb(90,90,90);
+}
+
+/*
+
+	background-color: rgba(220,100,100,0.1);
+	background-color: rgba(100,220,100,0.1);
+	background-color: rgba(100,100,220,0.1);
+
+*/
