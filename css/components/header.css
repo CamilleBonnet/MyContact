@@ -6,13 +6,40 @@
 	padding-bottom: 50px;
 	background: rgb(240, 240, 240);
 	opacity: 0.9;
+	height: 100vh;
+	width: 100%;
+
 	/*text-shadow: 1px 1px 5px black;*/
 }
 
 #header h1{
-	font-size: 80px;
+	font-size: 70px;
 }
 
 #header h3{
-	font-size: 40px;	
+	font-size: 25px;	
 }
+
+.bouton_login{
+	font-size:50px;
+	text-align: center;
+	width: 250px;
+	margin:auto;
+	border-radius: 5px;
+	padding: 5px;
+	background: rgb(107,107,107);
+	color:rgb(250,250,250);
+	border:1px solid rgb(250,250,250);
+	text-decoration: none;
+}
+
+.bouton_login:hover{
+	background: rgb(250,250,250);
+	color:rgb(107,107,107);
+	border:1px solid rgb(107,107,107);
+}
+
+a:hover{
+	text-decoration: none;
+}
+
