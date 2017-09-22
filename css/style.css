@@ -9,12 +9,14 @@
 @import url("components/description.css");
 @import url("components/footer.css");
 @import url("components/mainpage.css");
+@import url("components/dashboard.css");
 
 /* --- Fonts --- */
 body {
-  	/*font-family: 'Bubbler One', sans-serif;
-  	padding-bottom: 200px;*/
-  	font-family: 'Fira Mono', monospace;
+  	font-family: 'Bubbler One', sans-serif;
+  	/*font-family: 'Open Sans',sans-serif;*/
+  	/*font-family: 'Fira Mono', monospace;*/
+  	/*padding-bottom: 200px;*/
   	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: auto;
