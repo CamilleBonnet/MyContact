@@ -11,9 +11,12 @@
 }
 
 /* CSS common to all the panels*/
+.box{
+	padding: 0px 10px;
+}
 .panel-box{
-	/*border:1px solid rgb(250,250,250)black;*/
-	box-shadow: 0px 1px 1px 0px rgb(100,100,100);
+	box-shadow: 5px 5px 10px 0px rgb(100,100,100);
+	padding: 0;
 }
 
 .panel-box-title{
@@ -74,9 +77,11 @@
 	width: 15px;
 	height: 15px;
 }
+
 /* For the left Panel: My Information*/
-.box-left{
-	
+.panel-border{
+	border: 1px solid red;
+	padding: 0;
 }
 
 .my-info{
@@ -128,16 +133,11 @@
 
 
 /* For the middle Panel: the Groups*/
-.box-middle{
-
-}
-
 .group-info{
 	text-align: left;
-	/*border:1px solid rgb(250,250,250)yellow;*/
 	font-size: 25px;
 	position: relative;
-	box-shadow: 0 0 0 0 white;
+	/*box-shadow: 0 0 0 0 white;*/
 	height: 71px;
 	margin-top: 2px;
 	margin-bottom: 2px;
@@ -175,10 +175,6 @@
 
 
 /* For the right Panel: the Contact List*/
-.box-right{
-
-}
-
 .contact-info{
 
 }
@@ -204,10 +200,4 @@
 	height: 35px;
 	margin-top: 4px;
 	font-size: 20px;
-}
-
-
-
-.small{
-	
 }
