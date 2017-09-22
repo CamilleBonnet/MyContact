@@ -10,123 +10,204 @@
 	margin-bottom: 4px;
 }
 
-.box-left{
-	
-}
-
-.box-middle{
-
-}
-
-.box-right{
-
-}
+/* CSS common to all the panels*/
 .panel-box{
-	border:1px solid /*rgb(250,250,250)*/black;
+	/*border:1px solid rgb(250,250,250)black;*/
+	box-shadow: 0px 1px 1px 0px rgb(100,100,100);
 }
 
 .panel-box-title{
 	text-align: center;
-	border:1px solid /*rgb(250,250,250)*/green;
-	font-size: 25px
+	font-size: 40px;
+	font-weight: bold;
+	box-shadow: 0px 1px 1px 0px rgb(0,0,0);
+}
+
+.avatar{
+	text-align: center;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	/*border:1px solid /*rgb(250,250,250)blue;*/
+	width: 75px;
+	height: 75px;
+	border-radius: 100%;
+	box-shadow: 1px 1px 3px rgb(200,200,200);
+	font-size: 10px;
+}
+
+.info{
+	text-align: left;
+	/*border:1px solid /*rgb(250,250,250)green;*/
+	font-size: 25px;
+	position: relative;
+	height: 75px;
+	box-shadow: 0px 1px 1px 0px rgb(200,200,200);
+	border-radius: 5px;
+	/*box-shadow: inset hoff voff blur color;*/
+}
+
+.line1{
+	position:absolute;
+	top: 10px;
+	left: 80px;
+	height: 35px;	
+}
+
+.line2{
+	position:absolute;
+	top: 35px;
+	left: 80px;
+	height: 35px;
+}
+.group-displayed{
+	/*border:1px solid rgb(250,250,250)maroon;*/
+	position: absolute;
+	right: 0px;
+	top: 15px;
+}
+
+.eye-icon{
+	position:absolute;
+	right:100px;
+	top:40px;
+	width: 15px;
+	height: 15px;
+}
+/* For the left Panel: My Information*/
+.box-left{
+	
 }
 
 .my-info{
-	text-align: left;
-	border:1px solid /*rgb(250,250,250)*/green;
-	font-size: 25px;
-	position: relative;
-	height: 75px;
+	
 }
+
+.my-info-group{
+
+}
+
 .my-info-avatar{
-	text-align: center;
-	position:absolute;
-	top: 0px;
-	left: 0px;
-	height: 75px;
+	font-size: 10px;
+	padding-top: 30px;
 }
+
 .my-info-surname{
-	border:1px solid /*rgb(250,250,250)*/black;
-	position:absolute;
-	top: 0;
-	left: 100px;
+/*	border:1px solid rgb(250,250,250)black;
+*/	position:absolute;
+	top: 10px;
+	left: 80px;
 	height: 35px;
+	font-size: 20px;
+
 
 }
 .my-info-firstname{
-	border:1px solid /*rgb(250,250,250)*/black;
+	/*border:1px solid rgb(250,250,250)black;*/
 	position:absolute;
 	top: 35px;
-	left: 100px;
+	left: 80px;
 	height: 35px;
-	margin-top: 5px;
-
+	margin-top: 4px;
+	font-size: 20px;
 }
 
 
-.contact-info{
-	text-align: left;
-	border:1px solid /*rgb(250,250,250)*/red;
-	font-size: 25px;
-	position: relative;
-	height: 75px;
-}
-.contact-info-avatar{
-	border:1px solid /*rgb(250,250,250)*/blue;
-	text-align: center;
-	position:absolute;
-	top: 0px;
-	left: 0px;
-	height: 75px;
-}
-.contact-info-surname{
-	border:1px solid /*rgb(250,250,250)*/blue;
-	position:absolute;
-	top: 0;
-	left: 100px;
+.my-info-date{
+	position: absolute;
+	left: 80px;
 	height: 35px;
-
-}
-.contact-info-firstname{
-	border:1px solid /*rgb(250,250,250)*/blue;
-	position:absolute;
-	top: 35px;
-	left: 100px;
-	height: 35px;
-	margin-top: 5px;
-
+	font-size: 20px
 }
 
+.my-info-date a{
+	text-decoration: none;	
+	color: rgb(90,90,90);
+}
+
+
+
+/* For the middle Panel: the Groups*/
+.box-middle{
+
+}
 
 .group-info{
 	text-align: left;
-	border:1px solid /*rgb(250,250,250)*/yellow;
+	/*border:1px solid rgb(250,250,250)yellow;*/
 	font-size: 25px;
 	position: relative;
-	height: 75px;
+	box-shadow: 0 0 0 0 white;
+	height: 71px;
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
 .group-info-avatar{
-	border:1px solid /*rgb(250,250,250)*/purple;
-	text-align: center;
-	position:absolute;
-	top: 0px;
-	left: 0px;
-	height: 75px;
+	font-size: 10px;
+	padding-top: 30px;
+	width: 65px;
+	height: 65px;
+	top: 2px;
 }
 .group-info-name{
-	border:1px solid /*rgb(250,250,250)*/purple;
+	/*border:1px solid rgb(250,250,250)purple;*/
 	position:absolute;
-	top: 0;
-	left: 100px;
-	height: 35px;
+	top: 18px;
+	left: 80px;
+	/*text-align: center;*/
 
 }
+.group1{
+	border:1px solid rgb(255,0,0);
+}
+.group2{
+	border:1px solid rgb(0,255,0);
+}
+.group3{
+	border:1px solid rgb(0,0,255);
+}
+.group4{
+	border:1px solid rgb(255,255,0);
+}
+.group5{
+	border:1px solid rgb(255,0,255);
+}
+
+
+/* For the right Panel: the Contact List*/
+.box-right{
+
+}
+
+.contact-info{
+
+}
+.contact-info-avatar{
+	font-size: 10px;
+	padding-top: 30px;
+}
+
+.contact-info-surname{
+	/*border:1px solid rgb(250,250,250)blue;*/
+	position:absolute;
+	top: 10px;
+	left: 90px;
+	height: 35px;
+	font-size: 20px;
+
+}
+.contact-info-firstname{
+	/*border:1px solid rgb(250,250,250)blue;*/
+	position:absolute;
+	top: 35px;
+	left: 90px;
+	height: 35px;
+	margin-top: 4px;
+	font-size: 20px;
+}
+
 
 
 .small{
-	width: 75px;
-	height: 75px;	
-}
-.avatar{
-	border-radius: 100%;
+	
 }

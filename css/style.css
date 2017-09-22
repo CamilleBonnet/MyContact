@@ -13,9 +13,10 @@
 
 /* --- Fonts --- */
 body {
-  	/*font-family: 'Bubbler One', sans-serif;
-  	padding-bottom: 200px;*/
-  	font-family: 'Fira Mono', monospace;
+  	font-family: 'Bubbler One', sans-serif;
+  	/*font-family: 'Open Sans',sans-serif;*/
+  	/*font-family: 'Fira Mono', monospace;*/
+  	/*padding-bottom: 200px;*/
   	margin-top: 0px;
 	margin-bottom: 0px;
 	padding: auto;
