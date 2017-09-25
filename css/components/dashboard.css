@@ -17,15 +17,11 @@
 	position: relative;
 }
 
-.row{
-	padding-top: 10px;
-}
-
 /* CSS common to all the panels*/
 .box{
 	padding: 0px 10px;
 	position: absolute;
-	top: 60px;
+	top: 70px;
 	position: relative;
 }
 .panel-box{
@@ -94,6 +90,11 @@
 	left: 80px;
 	height: 35px;
 }
+
+.hide{
+	display:none;
+}
+
 .group-displayed{
 	border-left: 2px dotted rgb(230,230,230);
 	position: absolute;
@@ -111,6 +112,22 @@
 	top:40px;
 	width: 20px;
 	height: 20px;
+}
+
+.edit{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	right:15px;
+	top: 15px;
+}
+
+.test{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	right:0;
+	top:12px;
 }
 
 /* For the left Panel: My Information*/

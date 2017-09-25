@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<script type="application/javascript" src="../javascript/jquery-3.2.1.min.js"></script>
+    <script type="application/javascript" src="../javascript/javascript.js"></script>
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
-	
-    	<!-- Header of the webpage-->
+    <!-- Header of the webpage-->
+    <!-- Menu -->
     <div id="header" class="dashboard-menu">
 		<div class="">
 			<div class="navbar navbar-expand-lg navbar-light">
@@ -29,7 +31,7 @@
 			        <a class="nav-link" href="request.html">New Request</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link disabled" href="#">TODO LIST</a>
+			        <a class="nav-link" href="#">TODO LIST</a>
 			      </li>
 			    </ul>
 			    <form class="form-inline my-2 my-lg-0">
@@ -41,13 +43,16 @@
 		</div>
 	</div>
 
+	<!-- Main Content -->
 	<div class="">
 		<div class="container-fluid">
 			<div class="row">
+	      		<!-- User information -->
 	      		<div class="col-lg-4 col-md-4 col-xs-4 box ">
 		      		<div class="col-lg-12 col-md-12 col-xs-12 panel-box">
 						<div class="panel-box-title">
 							My information
+						<img src="../images/icones/pencil.png" class="edit edit-info" />
 						</div>
 						<div class="my-info info col-lg-12 col-md-12 col-xs-12">
 							<div class="avatar1">
@@ -104,17 +109,23 @@
 						</div>
 						<div class="my-info info col-lg-12 col-md-12 col-xs-12">
 							<div class="avatar1"><img src="../images/icones/password.png" class="avatar2"/></div>
-							<div class="my-info-date line1">GitHub</div>
-							<div class="my-info-date line2">*********</div>
+							<div class="my-info-date line1 pwd1">GitHub</div>
+							<div class="my-info-date line2 pwd2">*********</div>
+							<div class="my-info-date line2 pwd2 hide">0123456789</div>
 							<div class="my-info-group group-displayed">Group</div>
-							<div class="my-info-group"><img src="../images/icones/eye.png" class="eye-icon" /></div>
+							<div class="my-info-group">
+								<img src="../images/icones/eye-open.png" class="eye-icon hide" />
+								<img src="../images/icones/eye-close.png" class="eye-icon" />
+							</div>
 						</div>
 					</div>
 		      	</div>
+		      	<!-- User Groups -->
 		      	<div class="col-lg-4 col-md-4 col-xs-4 box ">
 		      		<div class="col-lg-12 col-md-12 col-xs-12 panel-box">
 						<div class="panel-box-title">
 							My Groups
+							<img src="../images/icones/pencil.png" class="edit edit-group" />
 						</div>
 						<div class="group-info info group1 col-lg-12 col-md-12 col-xs-12">
 							<div class="avatar1"><img src="../images/icones/password.png" class="avatar2"/></div>
@@ -126,7 +137,7 @@
 						</div>
 						<div class="group-info info group3 col-lg-12 col-md-12 col-xs-12">
 							<div class="avatar1"><img src="../images/icones/family2.png" class="avatar2"/></div>
-							<div class="group-info-name">family</div>
+							<div class="group-info-name">Family</div>
 						</div>
 						<div class="group-info info group4 col-lg-12 col-md-12 col-xs-12">
 							<div class="avatar1"><img src="../images/icones/friends.png" class="avatar2"/></div>
@@ -155,17 +166,17 @@
 								<li>Faire des sections avec plusieurs informations</li>
 								<li>mettre les logos avec des border en couleur</li>
 								<li>CSS: reprendre les fichiers et les découper selon les blocs</li>
-								<li>mettre le header et footer en fixed</li>
 								<li>mettre du javascript</li>
 							</ol>
 						</div>
 		      		</div>
 		      	</div>
-
+		      	<!-- User Contacts -->
 		      	<div class="col-lg-4 col-md-4 col-xs-4 box ">
 		      		<div class="col-lg-12 col-md-12 col-xs-12 panel-box">
 		      			<div class="panel-box-title">
 								My Contacts
+								<img src="../images/icones/pencil.png" class="edit edit-contact" />
 						</div>
 						<div class="contact-info info col-lg-12 col-md-12 col-xs-12">
 							<div class="avatar1"><img src="../images/icones/user-avatar.png" class="avatar2"/></div> 
@@ -243,7 +254,7 @@
 		      	</div>
 			</div>
 
-	    <!-- Footer with links to social networks-->
+	    	<!-- Footer with links to social networks-->
 	    	<div id="footer">
 		      <i class="fa fa-youtube" aria-hidden="true"></i>
 		      <i class="fa fa-facebook"></i>
