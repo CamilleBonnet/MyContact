@@ -198,8 +198,6 @@
 	color: rgb(90,90,90);
 }
 
-
-
 /* For the middle Panel: the Groups*/
 .group-info{
 	text-align: left;
@@ -222,7 +220,8 @@
 	position:absolute;
 	top: 18px;
 	left: 80px;
-	/*text-align: center;*/
+	text-align: center;
+	width: 60%;
 
 }
 .group1{
@@ -246,7 +245,7 @@
 .group7{
 	border:1px solid rgb(0,255,255);
 }
-.group8{
+.group8{  
 	border:1px solid rgb(0,255,0);
 }
 
